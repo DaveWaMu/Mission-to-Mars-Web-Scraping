@@ -62,7 +62,7 @@ def scrape():
         {"title": "Syrtis Major Hemisphere", "img_url": syrtis},
     ]
 
-    browser.quit()
+    
 
     # Scraped Dictionary
     scrape_dict={
@@ -72,6 +72,8 @@ def scrape():
         'mars_html':mars_html,
         'hemisphere_image_urls':hemisphere_image_urls
     }
+
+    browser.quit()
 
     return scrape_dict
 
